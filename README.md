@@ -7,5 +7,5 @@
 使用需求:node>=14.17.0
 
 cd koa2Visionable
-
+npm install
 node ./app.js
