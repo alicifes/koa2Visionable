@@ -33,7 +33,12 @@
             }
         }
         send.onclick = function(){
-            ws.send('hellow socket from frontend')
+            ws.send(JSON.stringify({
+                action:'themeChange',
+                socketType:'themeChange',
+                chartName:'',
+                value:'chalk'
+            }))
         }
     </script>
 </body>
